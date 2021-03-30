@@ -11,12 +11,14 @@ var car02Width = 120;
 var car02Height = 70;
 var car02sprite = "car02.png";
 var car02x = 10;
-var car02y = 10;
+var car02y = 100;
 
 var BG = "racing.jpg";
 var key;
 
 window.addEventListener("keydown", keyPressed);
+
+drawCars();
 
 function keyPressed(event) {
     key = event.keyCode;
@@ -115,5 +117,5 @@ function drawBG() {
 
 function drawCars() {
     canvas2D.drawImage(car01_imgTag, car01x, car01y, car01Width, car01Height)
-    canvas2D.drawImage(car01_imgTag, car01x, car01y, car01Width, car01Height);
+    canvas2D.drawImage(car02_imgTag, car02x, car02y, car02Width, car02Height);
 }
