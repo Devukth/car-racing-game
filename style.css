@@ -1,0 +1,29 @@
+body {
+	background-image: url("racing.gif");
+    background-position: center;
+	background-size: cover;
+}
+.title {
+    font-size: 30px;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 25px;
+    font-weight: 500;
+}
+.normal {
+    font-size: 20px;
+    font-weight: 300;
+}
+.thin {
+    font-size: 20px;
+    font-weight: 100;
+}
+#canvas {
+	border-width: 10px;
+	background-color: white; 
+	border-style: ridge;
+}
+h1,h4 {
+	color: white !important;
+}
