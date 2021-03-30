@@ -67,6 +67,8 @@ function move(direction, carID) {
                 car01x += 10;
                 drawBG();
                 drawCars();
+            } else {
+                document.getElementById("gameStatus").innerHTML = "Car 1 Won!";
             }
         }
     } else if(carID == 2) {
@@ -93,6 +95,8 @@ function move(direction, carID) {
                 car02x += 10;
                 drawBG();
                 drawCars();
+            } else {
+                document.getElementById("gameStatus").innerHTML = "Car 2 Won!";
             }
         }
     }
